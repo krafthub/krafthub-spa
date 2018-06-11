@@ -8,7 +8,13 @@ module.exports = function(defaults) {
       'bootstrapVersion': 4,
       'importBootstrapFont': false,
       'importBootstrapCSS': false
+    },
+    sassOptions: {
+      includePaths: [
+        'app'
+      ]
     }
+
   });
 
   // Use `app.import` to add additional libraries to the generated
